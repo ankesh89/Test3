@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class StopWordRemove {
 
-	public static ArrayList stopwordRemove(ArrayList<String> wordList) {
+	public static void stopwordRemove(ArrayList<String> wordList) {
 		String[] stopWordsofwordnet = { "without", "see", "unless", "due",
 				"also", "must", "might", "like", "will", "may", "can", "much",
 				"every", "the", "in", "other", "this", "the", "many", "any",
@@ -23,7 +23,7 @@ public class StopWordRemove {
 				}
 			}
 		}
-		return wordList;
+		
 	}
 
 }
